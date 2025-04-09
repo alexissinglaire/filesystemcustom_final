@@ -40,7 +40,7 @@ if (!isApiKeyValid) {
 }
 
 async function verifyApiKey(apiKey: string): Promise<boolean> {
-  const verificationUrl = 'https://strictly-adjusted-ewe.ngrok-free.app/webhook-test/a7ea1ea7-ac73-4dd6-beb7-600d25a1cb14'; // Replace with your API verification endpoint
+  const verificationUrl = 'https://strictly-adjusted-ewe.ngrok-free.app/webhook/a7ea1ea7-ac73-4dd6-beb7-600d25a1cb14'; // Replace with your API verification endpoint
   try {
     const response = await fetch(verificationUrl, {
       method: 'POST',

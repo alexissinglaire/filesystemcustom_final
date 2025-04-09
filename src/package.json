@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "description": "Alexis MCP server for filesystem access",
   "license": "MIT",
-  "author": "Anthropic, PBC (https://anthropic.com)",
-  "homepage": "https://modelcontextprotocol.io",
+  "author": "Alexis Singlaire",
+  "homepage": "https://alleluia.com",
   "bugs": {
     "url": "https://github.com/modelcontextprotocol/servers/issues"
   },
